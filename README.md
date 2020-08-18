@@ -46,3 +46,14 @@ For round t in range(r):
   
    ![alt text](https://github.com/maoz-grossman/AdaBoost-implementation/blob/master/images/equation.JPG?raw=true)
   </p>
+  
+  <p>
+  Average the error for each <b>r</b> over the 100 runs, and print out this average error for each <b>r</b>.
+  <br><br>
+  Now create a function called Circle, which given a set of labelled points with weights, finds a
+circle which minimizes the error on the points.<br>
+   A circle is defined by two points – the center,
+and another point whose distance from the center determines the radius.<br>
+  Run Adaboost again as before, now on circles instead of rectangles, and print out this average error for
+  each <b>r</b>. 
+  </p>
