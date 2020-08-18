@@ -26,7 +26,7 @@ that is the sum of weights of wrongly placed points.<br>
 </p>
 
 ```python
-Initialize each point weight to be 1/n: D0(x_i) = 1/n
+Initialize each point weight to be 1/n: D_0(x_i) = 1/n
 For round t in range(r):
   1.Use Rectangle to find a rectangle with minimum weighted error ε
     and call this rectangle h_t
@@ -37,3 +37,13 @@ For round t in range(r):
   4.Normalize these weights: D_t(x_i) = D_t(x_i) / ∑_j(D_t(x_j))
   
 ```
+
+<p>
+  Run the algorithm 100 times for each of r=1,…,8.<br>
+  For each run, randomly divide the points into 65 training points R and 65 test points T.<br>
+ Then run AdaBoost on R, and after computing the final hypothesis, find its error T.<br>
+  Recall that the final hypothesis on each test point x in T is: 
+  
+  
+
+  </p>
