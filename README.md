@@ -21,3 +21,6 @@ finds a rectangle which minimizes the weighted error on the points,
 that is the sum of weights of wrongly placed points.<br>
   </p>
 
+<p>
+  Now write the AdaBoost algorithm on a training set of size <b>n</b>. The pseudocode is as follows: 
+</p>
