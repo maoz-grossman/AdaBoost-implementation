@@ -44,5 +44,5 @@ For round t in range(r):
  Then run AdaBoost on R, and after computing the final hypothesis, find its error T.<br>
   Recall that the final hypothesis on each test point x in T is: 
   
-            ![alt text](https://github.com/maoz-grossman/AdaBoost-implementation/blob/master/images/equation.JPG?raw=true)
+   ![alt text](https://github.com/maoz-grossman/AdaBoost-implementation/blob/master/images/equation.JPG?raw=true)
   </p>
